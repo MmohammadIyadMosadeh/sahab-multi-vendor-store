@@ -1,3 +1,6 @@
+a{
+    text-decoration: none;
+}
 .description{
     border:1px solid gray;
     border-radius: 5px;
@@ -11,5 +14,54 @@
 }
 button{
     cursor: pointer;/*لتغير شكل الماوس */
+}
+.buttons{
+    display: flex;
+    justify-content:;
+}
+/* pag login*/
+
+.login{
+    margin: 5%;
+    display:flex;
+}
+.img-logo{
+    width: 200px;
+    display: inline;
+    margin-right: 150px;
+}
+.login-form{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    padding: ;
+}
+input{
+    width: 400px;
+    height: 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid rgb(201, 201, 201);
+}
+.box-inp{
+    margin-top: 15px;
+}
+.box-inp label{
+    font-size: 20px;
+}
+
+form h1{
+    text-align: center;
     
+}
+.but-login{
+    justify-content: center;
+    background-color: rgb(39, 39, 233);
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    width: 450px;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 50px;
 }
