@@ -3,24 +3,7 @@ a{
     color: black;
     
 }
-.description{
-    border:1px solid gray;
-    border-radius: 5px;
-    border-top: 3px solid rgb(216 176 142);
-    margin-top: 10px;
-    padding: 10px;
-    width: 50%;
-}
-.description p{
-    font-size: 14px;
-}
-button{
-    cursor: pointer;/*لتغير شكل الماوس */
-}
-.buttons{
-    display: flex;
-    justify-content:;
-}
+
 /* pag login*/
 
 .login{
@@ -88,7 +71,7 @@ form h1{
 }
 /* start pag product*/
 nav{
-    margin-right: 100px;
+    margin-right: 200px;
     margin-bottom: 20px;
 }
 nav a{
@@ -100,8 +83,27 @@ nav a{
 nav a:active{
     color: black;
 }
+.description{
+    border:1px solid gray;
+    border-radius: 5px;
+    border-top: 3px solid rgb(216 176 142);
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+}
+.description p{
+    font-size: 14px;
+}
+button{
+    cursor: pointer;/*لتغير شكل الماوس */
+}
+.buttons{
+    display: flex;
+    justify-content:;
+}
 .barent{
-    margin-right: 100px;
+    margin-right: 200px;
+    display: flex;
 }
 .img-product{
     width: 700px;
@@ -112,16 +114,71 @@ nav a:active{
 }
 .buttons{
     margin-top: 50px;
-    margin-right: 100px;
+    margin-right: 40px;
     display: flex;
     gap: 15px;
 }
 .buttons button{
-    height: 25PX;
-    width: 100px;
-    
+    height: 35PX;
+    width: 140px;
+    border: 1px solid rgb(154, 153, 153);  
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 10px;
 }
 #but-bottom{
-    margin-top: 30px;
-    margin-right: -115px;
+    margin-top: 40px;
+    margin-right: -155px;
+}
+.table{
+    border:1px solid gray;
+    border-radius: 5px;
+    border-top: 3px solid rgb(216 176 142);
+    width: 103%;
+    margin-top: 20px;
+
+}
+.table h3{
+    margin-right: 20px;
+
+}
+table{
+    width: 100%;
+    max-width: 100% ;
+    background-color: transparent;
+    margin-bottom: 1rem;
+}
+table td {
+    padding: 0.75rem;                                                                                                                                   
+    border-top:1px solid rgb(233, 236, 239);
+}
+.head-tabel{
+    font-size: 20px;
+    color: #343232;
+}
+.img-left{
+    display: block;
+    height: 100%;
+    margin-right: 100px;
+}
+/*start footer*/
+footer{
+    display:flex;
+    gap: 100px;
+    margin-right:200px ;
+    border: 2px solid rgba(255,208,7) 12.5%;
+    
+}
+footer p{
+    max-width: 300px;
+    color: #343232;
+}
+ul{
+    list-style: none;
+    margin-right: -20px;
+    color: #343232;
+
+}
+ul li{
+    margin-bottom: 5px;
 }
