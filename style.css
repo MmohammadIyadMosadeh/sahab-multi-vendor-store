@@ -86,3 +86,42 @@ form h1{
     border-radius: 8px;
 
 }
+/* start pag product*/
+nav{
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+nav a{
+    color: #343232;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+nav a:active{
+    color: black;
+}
+.barent{
+    margin-right: 100px;
+}
+.img-product{
+    width: 700px;
+}
+.description-product{
+    display: flex;
+    gap: 200PX;
+}
+.buttons{
+    margin-top: 50px;
+    margin-right: 100px;
+    display: flex;
+    gap: 15px;
+}
+.buttons button{
+    height: 25PX;
+    width: 100px;
+    
+}
+#but-bottom{
+    margin-top: 30px;
+    margin-right: -115px;
+}
