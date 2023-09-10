@@ -68,11 +68,13 @@ form h1{
     width: 600px;
     height: 600px;
     border-radius: 8px;
+    box-shadow: 2px 0px 10px #343232;
 
 }
 /* start pag product*/
 nav{
-    margin-right: 200px;
+    margin-right: 100px;
+    margin-left: 100px;
     margin-bottom: 20px;
 }
 nav a{
@@ -172,7 +174,7 @@ table td {
     width: 100%;
 }
 /*start footer*/
-footer{
+/* footer{
     
     margin-top:50px ;
     border-top: 5px solid rgba(255,208,7);
@@ -216,8 +218,214 @@ footer button{
     padding: 5px;
 }
 .end-pag{
-    font-weight:18px ;
+    font-weight:bold ;
     font-size: 20px;
     text-align: center;
     max-width: none;
+} */
+
+/*staret home*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.hader-line{
+    background: linear-gradient(to right, rgba(255,208,7) 0%, rgba(255,208,7) 12.5%,rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%);
+    height: 8px;
+    width: 100%;
+}
+nav{
+    margin-top: 20px;
+}
+nav .left{
+    float: left;
+    display: flex;
+    gap: 30px;
+    
+
+}
+nav .left div{
+    text-align: center;
+}
+nav .left button{
+    background-color: rgb(73, 185, 117);
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    border-radius: 8px;
+    font-weight:bold ;
+}
+.main{
+    background-image: url('img/slider-2.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    height: 350px;
+}
+
+.main .card{
+    float: left;
+    margin-left: 100px;
+    margin-top: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+}
+.card h1{
+    text-align: center;
+}
+.card .Welcome{
+    margin-top: 15px;
+}
+.Welcome label{
+    font-size: 18px;
+    font-weight: 200;
+}
+.card input{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.card input ::placeholder{
+    color: gray;
+}
+.card button{
+    width: 100%;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #7600d9;
+    color: white;
+    height: 40px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.category{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.category h1 {
+    padding-top: 20px;
+}
+.category p{
+    float: left;
+}
+.items{
+    margin-top: 20px;
+    display: flex;
+    gap: 25px;
+    overflow: hidden;
+    overflow-x: scroll;
+    text-align: center;
+    white-space: nowrap;
+    padding-bottom: 10px;
+}
+
+.item img {
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    width: 75px;
+    box-shadow: 0px 5px 3px grey;
+}
+.section-1{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.section-1-card{
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: 10px 10px 10px grey; */
+    width:415px;
+    border-bottom: 1px solid grey;
+    border-radius: 5px;
+}
+.section-1-card img{
+    width: 100%;
+    border: none;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.section-1-card .text-card{
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.section-1-card .text-card p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.img-mobile{
+    background-image: url('img/adv2-mobile.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 300px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.section-1-card h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom : 20px;
+}
+.footer-line{
+    background: linear-gradient(to right, rgba(255,208,7) 0%, rgba(255,208,7) 12.5%,rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%);
+    height: 8px;
+    width: 100%;
+    margin-top: 30px;
+}
+.footer{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.footer .Connect{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.footer ul{
+    padding-top: 5px;
+}
+.footer ul li{
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+#max-text{
+    max-width: 150px;
+}
+.WhatsApp p {
+    padding-top: 15px;
+    max-width: 300px;
+}
+.WhatsApp input{
+    border: 1px solid grey;
+    padding-top: 5px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.WhatsApp button{
+    border: none;
+    background-color: #7e57c6;
+    color: #eee;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    margin-top: 10px;
+
+
 }
