@@ -225,9 +225,8 @@ footer button{
 } */
 
 /*staret home*/
-*{
+body{
     margin: 0;
-    padding: 0;
 }
 .hader-line{
     background: linear-gradient(to right, rgba(255,208,7) 0%, rgba(255,208,7) 12.5%,rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%);
@@ -250,24 +249,26 @@ nav .left div{
 nav .left button{
     background-color: rgb(73, 185, 117);
     color: white;
-    padding-left: 15px;
-    padding-right: 15px;
+    height: 35px;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
     border: none;
     border-radius: 8px;
     font-weight:bold ;
 }
 .main{
-    background-image: url('img/slider-2.jpg');
+    background-image: url('img/slider.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center center;
     height: 350px;
+    position: relative;
 }
 
 .main .card{
-    float: left;
-    margin-left: 100px;
-    margin-top: 30px;
+    position: absolute;
+    top: 20px;
+    left:100px;
     background-color: white;
     border: none;
     border-radius: 8px;
@@ -400,10 +401,12 @@ nav .left button{
 }
 .footer ul{
     padding-top: 5px;
+    padding-right: 0;
 }
 .footer ul li{
     list-style-type: none;
-    padding-bottom: 5px;
+    padding-bottom: 5px !important  ;
+    
 }
 #max-text{
     max-width: 150px;
@@ -429,4 +432,7 @@ nav .left button{
     margin-top: 10px;
 
 
+}
+#end{
+    text-align: center;
 }
