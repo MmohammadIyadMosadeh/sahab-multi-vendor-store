@@ -391,6 +391,7 @@ nav .left button{
     display: flex;
     justify-content: space-evenly;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 .footer .Connect{
     display: flex;
