@@ -138,9 +138,7 @@ button{
     border:1px solid gray;
     border-radius: 5px;
     border-top: 3px solid rgb(216 176 142);
-    width: 103%;
     margin-top: 20px;
-
 }
 .table h3{
     margin-right: 20px;
@@ -148,7 +146,7 @@ button{
 }
 table{
     width: 100%;
-    max-width: 100% ;
+    /* max-width: 100% ; */
     background-color: transparent;
     margin-bottom: 1rem;
 }
@@ -265,7 +263,7 @@ nav .left button{
     position: relative;
 }
 
-.main .card{
+/* .main .card{
     position: absolute;
     top: 20px;
     left:100px;
@@ -279,7 +277,7 @@ nav .left button{
 }
 .card .Welcome{
     margin-top: 15px;
-}
+} */
 .Welcome label{
     font-size: 18px;
     font-weight: 200;
