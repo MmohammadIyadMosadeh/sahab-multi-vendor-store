@@ -9,10 +9,15 @@ a{
 .img-logo{
     width: 13%;
 }
+.img-logo-login{
+    width: 30%;
+    padding: 10px;
+}
 .hader-line{
     background: linear-gradient(to right, rgba(255,208,7) 0%, rgba(255,208,7) 12.5%,rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%);
     height: 8px;
     width: 100%;
+    position: absolute;
 }
 .img-s{
     width: 100%;
@@ -20,6 +25,12 @@ a{
     border-radius: 8px;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+.card-login{
+    width: 500px !important;
+}
+.btn-login{
+    background-color: rgb(65, 130, 195);
 }
 body{
     background-color: #fffefe;
@@ -78,6 +89,7 @@ table td {
     padding: 10px;
     width: 100%;
 }
+
 .items{
     background-color: #f9f7f6;
     /* width: 100%;
@@ -96,7 +108,7 @@ table td {
     margin-right: 20px;
     padding: 20px;
 }
-.card{
+.items .card{
     border-radius: 10px;
     border: none;
     box-shadow: 0px 5px 10px  #706f6f;
@@ -112,6 +124,7 @@ table td {
 }
 .card p{
     font-size: 14px;
+    
     
 }
 
@@ -177,4 +190,79 @@ table td {
 }
 #end{
     text-align: center;
+}
+.btn-footer{
+    background-color: #7e57c6;
+    color:#eee;
+    margin-right: 8px;
+    border-radius: 2px;
+    border: none;
+    padding: 0 20px;
+    font-family: inherit;
+    font-size: 18px;
+}
+
+.icon-footer{
+    padding: 10px;
+    background-color: #7e57c6;
+    color: #fffefe;
+    border-radius: 50%;
+    
+}
+.icon-footer-fa{
+    background-color: blue;
+    padding: 10px;
+    color: #fffefe;
+    border-radius: 50%;
+}
+.col-sp{
+    color: #fffefe;
+    background-color: #7e57c6;
+    border-radius: 50%;
+}
+
+/* HMOE*/
+.main{
+    background-image: url('img/slider.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    height: 350px;
+    position: relative;
+}
+.card-form{
+    position: absolute;
+    top: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+}
+.category{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.category h1 {
+    padding-top: 20px;
+}
+.category p{
+    float: left;
+}
+.items{
+    margin-top: 20px;
+    display: flex;
+    gap: 25px;
+    overflow: hidden;
+    overflow-x: scroll;
+    text-align: center;
+    white-space: nowrap;
+    padding-bottom: 10px;
+}
+
+.item img {
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    width: 75px;
+    box-shadow: 0px 5px 3px grey;
 }
