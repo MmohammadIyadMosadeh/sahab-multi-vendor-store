@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     
+    
 }
 a{
     text-decoration: none;
@@ -20,6 +21,7 @@ a{
     width: 100%;
     position: absolute;
 }
+
 .img-s{
     width: 100%;
     height: 250px;
@@ -27,10 +29,7 @@ a{
     margin-top: 15px;
     margin-bottom: 15px;
 }
-.btn-nav{
-    top: 10px;
-    left: 0;
-}
+
 
 .card-login{
     width: 500px !important;
@@ -104,51 +103,13 @@ table td {
     margin-top: 10px;
     padding: 10px;
     width: 100%;
-}
-
-.items{
-    background-color: #f9f7f6;
-    /* width: 100%;
-    height: 100%; */
-    margin-top: 15px;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-.items h3{
-    color: black;
-    font-weight: bold;
-    padding-right: 15px;
-    padding-top: 15px;
-}
-.items .card{
-    margin-right: 20px;
-    padding: 10px;
-    
-}
-.items .card{
-    border-radius: 10px;
-    border: none;
-    box-shadow: 0px 5px 10px  #706f6f;
-    margin-top: 15px;
-    margin-bottom: 40PX;
-}
-.card-text{
-    background-color: #ddd;
-    border-radius: 8px;
-}
-.card h6, h5, p{
-    color: #706f6f;
-}
-.card p{
-    font-size: 14px;
-    
     
 }
 
-.pr{
-    background-color: #ddd;
-    border-radius: 8px;
-}
+
+
+
+
 .img-end{
     width: 80%;
     height: 250px;
@@ -242,34 +203,23 @@ table td {
 .main{
     background-image: url('img/slider.jpg');
     background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center center;
+    background-position: center;
+    background-size: cover;
     height: 350px;
     position: relative;
-    margin-top: 10px;
 }
+
 .card-form{
+    width: 400px;
     position: absolute;
-    left: 100px ;
     top: 10px;
-    background-color: white;
-    border: none;
-    border-radius: 8px;
-    padding: 20px;
+    bottom: 10px;
+    left: 100px;
+    
 }
-.category{
-    margin-left: 100px;
-    margin-right: 100px;
-}
-.category h1 {
-    padding-top: 20px;
-}
-.category p{
-    float: left;
-}
-.items-list{
-    margin-top: 20px;
-    display: flex;
+
+
+.items{
     gap: 25px;
     overflow: hidden;
     overflow-x: scroll;
@@ -285,20 +235,67 @@ table td {
     width: 75px;
     box-shadow: 0px 5px 3px grey;
 }
+
+
 .search-bloak{
     background-color: rgb(65, 130, 195);
     padding-top: 7px;
     padding-bottom: 1px;
 }
+.row div ul{
+    list-style: none;
+    padding-top: 10px;
+}
+.row div ul li{
+    padding-right: 5px;
+}
 .div-srarch{
     gap: 20px;
     border-right: 2px solid grey;
     padding-right: 20px;
+    
 }
 .text-search{
     top: 0;
     left: 0;
 }
+.img-card-search{
+    width: 150px;
+    height: 150px;
+}
 .body-card-search{
     padding: 15px;
+    
+}
+.icon-heart{
+    top: 0;
+    left: -450px;
+    border: none;
+    background-color: none !important;
+}
+.imge{
+    width: 200px;
+    height: 135px;
+    background-color: #f9f7f6;
+    
+    
+}
+.body-card{
+    width: 100%;
+}
+.body-card label{
+    left: 1rem;
+    color: pointer;
+}
+.body-card label .bi:hover{
+    color: red;
+}
+.pries span{
+    background-color: rgb(148, 148, 148);
+    padding: 2px;
+    border-radius: 3px;
+}
+.title-items{
+    top: 15px;
+    right: 100px;
 }
