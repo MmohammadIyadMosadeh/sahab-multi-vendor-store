@@ -201,7 +201,7 @@ table td {
 
 /* HMOE*/
 .main{
-    background-image: url('img/slider.jpg');
+    background-image: url('../img/slider.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
