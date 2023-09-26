@@ -4,9 +4,12 @@
         public $numder2 = 15 ;
 
         function sumation1(){
-            return $this->
+            return $this->numder1 +  $this->numder2
         }
     }
+
+    $re = new sumation;
+    echo
 
 
 
